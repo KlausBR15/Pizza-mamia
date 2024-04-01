@@ -631,6 +631,9 @@ footer > button {
     #text {
         width: 85%;
     }
+    #centralizar {
+        display: none;
+    }
 } 
 
 
