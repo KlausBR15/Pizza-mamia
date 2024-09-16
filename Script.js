@@ -10,7 +10,7 @@ const contador = document.getElementById('contador')
 const adress = document.getElementById('endereço')
 const finalizar = document.getElementById('entregar')
 const corrigir = document.getElementById('corretor')
-const icon = document.getElementById('icone')
+
 const warn = document.getElementById('aviso')
 
 
@@ -18,15 +18,7 @@ const warn = document.getElementById('aviso')
 
 var list = [];
 
-icon.addEventListener('click', function() {
 
-    if (warn.style.display == 'block') {
-        warn.style.display = 'none'
-    }
-    else {
-        warn.style.display = 'block'
-    }
-})
 
 
 // abrir o modal

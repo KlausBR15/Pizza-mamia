@@ -88,6 +88,22 @@ header > h1 {
 
 }
 
+#centralizar {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+
+}
+
+#block {
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+
+    width: 250px;
+    height: 110px;
+}
 
 
 #dev {
@@ -550,9 +566,6 @@ footer > button {
 
     #text {
         width: 85%;
-    }
-    #centralizar {
-        display: none;
     }
 } 
 
